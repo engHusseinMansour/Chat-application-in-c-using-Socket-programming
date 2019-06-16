@@ -18,9 +18,12 @@ To reverse and written the input string str.
 =======================================================
                           USAGE
 =======================================================
+gcc -o client.out client.c
+gcc -o server.out server.c
+
 While executing the client process, the IP address and PORT number of server is to be passed as command line argument.
 
-Ex: ./client.out 10.2.57.116 10011
+Ex: ./client.out [Your local IP address] 10011
 
 =======================================================
                           OUTPUT
